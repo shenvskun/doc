@@ -1,0 +1,10 @@
+如果迭代器的指针已经指向了集合的末尾，那么如果再调用next()会返回NoSuchElementException异常
+如果调用remove之前没有调用next是不合法的，会抛出IllegalStateException
+
+java.io.NotSerializableException: cn.sk.io.Student 没有序列化(实现 Serializable接口)的Student对象通过ObjectOutputStream序列化到文件中会报的错误
+
+1  网页上一直显示 等待localhost响应
+2  停止tomcat之后 控制台打印  The web application [customer] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementat
+web应用程序(客户)仍然是处理一个请求,尚未完成。这很有可能创建一个内存泄漏。你可以控制允许的时间要求完成通过使用标准上下文implementat unloadDelay属性 
+
+这个错误是由连接资源未释放导致的 网页上一直显示 等待localhost响应
